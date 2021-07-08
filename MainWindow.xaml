@@ -1,0 +1,48 @@
+﻿<Window x:Class="Carkifelek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Carkifelek"
+        mc:Ignorable="d"
+        Title="Çarkıfelek" Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="CanMinimize" FontFamily="Unispace" Icon="Logo.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image Name="Carkifelek" HorizontalAlignment="Left" Height="401" Margin="65,0,0,0" VerticalAlignment="Top" Width="401" RenderTransformOrigin="0.5,0.5" Source="carkifelek.png"></Image>
+        <Button Name="Ceviriniz" Content="Çeviriniz" HorizontalAlignment="Center" Margin="535,105,75,284" VerticalAlignment="Center" Width="184" Height="32" Click="Button_Click" FontFamily="Unispace" FontSize="16"/>
+        <Label Name="GelenPuan" Content="0" HorizontalAlignment="Center" Margin="471,142,10,229" VerticalAlignment="Center" Width="313" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Unispace" FontSize="32"/>
+        <Label Name="Harf" HorizontalAlignment="Left" Margin="471,329,0,0" VerticalAlignment="Top" Width="313" Height="27" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16" FontFamily="Unispace"/>
+        <Label Name="Soru" Content="[ ][ ][ ][ ][ ]" Margin="471,0,10,321" Height="100" FontFamily="Unispace" FontSize="32" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" VerticalContentAlignment="Center" ScrollViewer.CanContentScroll="True" UseLayoutRounding="False"/>
+        <Label Name="PuanAciklama" Content="Puan Değerinde Bir Harf" HorizontalAlignment="Center" Margin="471,192,10,197" VerticalAlignment="Center" Width="313" Height="32" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Unispace" FontSize="16"/>
+        <Label Name="Puan" Content="Puanınız: 0" HorizontalAlignment="Left" Margin="471,354,0,0" VerticalAlignment="Top" Width="313" Height="52" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Unispace" FontSize="32"/>
+        <Button Name="A" Content="A" HorizontalAlignment="Left" Margin="471,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickA" IsEnabled="False"/>
+        <Button Name="B" Content="B" HorizontalAlignment="Left" Margin="508,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickB" IsEnabled="False"/>
+        <Button Name="C" Content="C" HorizontalAlignment="Left" Margin="545,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickC" IsEnabled="False"/>
+        <Button Name="Ç" Content="Ç" HorizontalAlignment="Left" Margin="582,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickÇ" IsEnabled="False"/>
+        <Button Name="D" Content="D" HorizontalAlignment="Left" Margin="619,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickD" IsEnabled="False"/>
+        <Button Name="E" Content="E" HorizontalAlignment="Left" Margin="656,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickE" IsEnabled="False"/>
+        <Button Name="F" Content="F" HorizontalAlignment="Left" Margin="693,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickF" IsEnabled="False"/>
+        <Button Name="G" Content="G" HorizontalAlignment="Left" Margin="730,229,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickG" IsEnabled="False"/>
+        <Button Name="Ğ" Content="Ğ" HorizontalAlignment="Left" Margin="471,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickĞ" IsEnabled="False"/>
+        <Button Name="H" Content="H" HorizontalAlignment="Left" Margin="508,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickH" IsEnabled="False"/>
+        <Button Name="I" Content="I" HorizontalAlignment="Left" Margin="545,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickI" IsEnabled="False"/>
+        <Button Name="İ" Content="İ" HorizontalAlignment="Left" Margin="582,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="Clickİ" IsEnabled="False"/>
+        <Button Name="J" Content="J" HorizontalAlignment="Left" Margin="619,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickJ" IsEnabled="False"/>
+        <Button Name="K" Content="K" HorizontalAlignment="Left" Margin="656,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickK" IsEnabled="False"/>
+        <Button Name="L" Content="L" HorizontalAlignment="Left" Margin="693,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickL" IsEnabled="False"/>
+        <Button Name="M" Content="M" HorizontalAlignment="Left" Margin="730,254,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickM" IsEnabled="False"/>
+        <Button Name="N" Content="N" HorizontalAlignment="Left" Margin="471,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickN" IsEnabled="False"/>
+        <Button Name="O" Content="O" HorizontalAlignment="Left" Margin="508,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickO" IsEnabled="False"/>
+        <Button Name="Ö" Content="Ö" HorizontalAlignment="Left" Margin="545,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickÖ" IsEnabled="False"/>
+        <Button Name="P" Content="P" HorizontalAlignment="Left" Margin="582,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickP" IsEnabled="False"/>
+        <Button Name="R" Content="R" HorizontalAlignment="Left" Margin="619,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickR" IsEnabled="False"/>
+        <Button Name="S" Content="S" HorizontalAlignment="Left" Margin="656,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickS" IsEnabled="False"/>
+        <Button Name="Ş" Content="Ş" HorizontalAlignment="Left" Margin="693,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickŞ" IsEnabled="False"/>
+        <Button Name="T" Content="T" HorizontalAlignment="Left" Margin="730,279,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickT" IsEnabled="False"/>
+        <Button Name="U" Content="U" HorizontalAlignment="Left" Margin="471,304,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickU" IsEnabled="False"/>
+        <Button Name="Ü" Content="Ü" HorizontalAlignment="Left" Margin="508,304,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickÜ" IsEnabled="False"/>
+        <Button Name="V" Content="V" HorizontalAlignment="Left" Margin="545,304,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickV" IsEnabled="False"/>
+        <Button Name="Y" Content="Y" HorizontalAlignment="Left" Margin="582,304,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickY" IsEnabled="False"/>
+        <Button Name="Z" Content="Z" HorizontalAlignment="Left" Margin="619,304,0,0" VerticalAlignment="Top" Width="32" Height="20" FontFamily="Unispace" Click="ClickZ" IsEnabled="False"/>
+        <Image HorizontalAlignment="Left" Height="52" Margin="0,205,0,0" VerticalAlignment="Top" Width="100" Source="isaret.png"/>
+    </Grid>
+</Window>
